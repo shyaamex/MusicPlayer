@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
 body{
-    background-color: wheat;
+    background-color: black;
     background-image: url('Images/radium.jpg');
 
 }
@@ -11,7 +11,20 @@ body{
 }
 nav{
     font-family: 'Lumanosimo', cursive;
+
 }
+nav a:link {
+    text-decoration: none;
+    color: white;
+  }
+nav a:visited {
+    text-decoration: none;
+    color: white;
+  }
+nav a:hover {
+    color: hotpink;
+  }
+  
 
 nav ul{
     display: flex;
@@ -43,12 +56,13 @@ nav ul li{
     width: 80vw;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .container{
     padding: 10px;
     font-family: 'Lumanosimo', cursive;
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     background-color: aqua;
     margin: 30px 100px;
@@ -75,7 +89,7 @@ nav ul li{
 
 .icons{
     margin-top: 25px;
-    padding: ;   
+     
     
 }
 
@@ -108,5 +122,18 @@ nav ul li{
 
 .timestamp{
     margin: 10px 23px;
-    padding: ;
+    
+}
+
+.timestamp i{
+    margin: 0 10px;
+}
+
+.SongInfo{
+    position: absolute;
+    left: 10vw;
+}
+.SongInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in  ;
 }
