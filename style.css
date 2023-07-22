@@ -134,6 +134,7 @@ nav ul li{
     left: 10vw;
 }
 .SongInfo img{
+    
     opacity: 0;
-    transition: opacity 1s ease-in  ;
+    transition: opacity 0.1s ease-in;
 }
